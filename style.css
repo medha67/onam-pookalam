@@ -1,0 +1,25 @@
+body {
+	background-color: pink !important;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#pookalamCanvas {
+	display: block;
+	position: relative;
+	z-index: 2;
+	margin: 0 auto;
+    background-color: brown;
+}
+
+.onamBg {
+    
+	position: relative;
+	z-index: 1;
+
+background: radial-gradient(circle, #951e00, #feb47b);
+}
+
