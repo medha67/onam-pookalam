@@ -37,6 +37,9 @@ h1{
     height: 100px;
     text-align: center;
     font-weight: bolder;
+    border-radius: 70px;
+    background-color: rgb(68, 29, 222);
+    border: slategrey solid;
     transform: translate(-50%, -50%);
     color: rgb(121, 0, 0);
     font-family: 'Arial', sans-serif;
