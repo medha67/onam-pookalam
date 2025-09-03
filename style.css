@@ -15,7 +15,7 @@ body {
     background-color: brown;
 }
 canvas {
-    z-index: 1;
+    z-index: 3;
 }
 
 .onamBg {
@@ -35,9 +35,9 @@ h1{
     left: 100%;
     transform: translate(-50%, -50%);
     color: rgb(121, 0, 0);
-    font-size: 88px;
+    font-size: 132px;
     font-family: 'Arial', sans-serif;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    z-index: 3;
+    z-index: 1;
 }
 
