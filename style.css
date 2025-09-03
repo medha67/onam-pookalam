@@ -15,7 +15,7 @@ body {
     background-color: brown;
 }
 canvas {
-    z-index: 3;
+    z-index: 2;
 }
 
 .onamBg {
@@ -25,7 +25,7 @@ canvas {
     width: 200vw;
     height: 100vh;
 	position: relative;
-	z-index: 2;
+	z-index: 3;
 
 background: radial-gradient(circle, #951e00, #feb47b);
 }
