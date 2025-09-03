@@ -30,7 +30,7 @@ canvas {
 background: radial-gradient(circle, #951e00, #feb47b);
 }
 h1{
-    position: absolute;
+    position: relative;
     top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
