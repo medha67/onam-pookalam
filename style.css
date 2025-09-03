@@ -1,5 +1,5 @@
 body {
-	background-color: pink !important;
+	background-color: rgb(255, 99, 125) !important;
 }
 
 * {
@@ -22,7 +22,7 @@ canvas {
     background-image: url(onambg.png);
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
-    width: 100vw;
+    width: 200vw;
     height: 100vh;
 	position: relative;
 	z-index: 2;
@@ -34,8 +34,8 @@ h1{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
-    font-size: 4em;
+    color: rgb(121, 0, 0);
+    font-size: 68px;
     font-family: 'Arial', sans-serif;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     z-index: 3;
