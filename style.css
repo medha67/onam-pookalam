@@ -30,7 +30,7 @@ canvas {
 background: radial-gradient(circle, #951e00, #feb47b);
 }
 h1{
-    position: relative;
+    position: absolute;
     top: 100%;
     left: 0%;
     width: 300px;
@@ -38,7 +38,6 @@ h1{
     text-align: center;
     transform: translate(-50%, -50%);
     color: rgb(121, 0, 0);
-    font-size: 332px;
     font-family: 'Arial', sans-serif;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     z-index: 1;
