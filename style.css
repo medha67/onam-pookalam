@@ -32,7 +32,7 @@ background: radial-gradient(circle, #951e00, #feb47b);
 h1{
     position: relative;
     top: 100%;
-    left: 50%;
+    left: 100%;
     transform: translate(-50%, -50%);
     color: rgb(121, 0, 0);
     font-size: 88px;
