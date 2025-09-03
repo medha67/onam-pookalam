@@ -32,7 +32,7 @@ for (let i = 0; i < numDots; i++) {
     const layers = [
   { radius: 190, color: '#FFD700' }, // gold
   { radius: 150, color: '#FF69B4' }, // pink
-  { radius: 120, color: '#32CD32' }, // green
+  { radius: 120, color: '#3278cdff' }, // green
   { radius: 80,  color: '#FFA500' }, // orange
   { radius: 40,  color: '#FFFFFF' }  // white
 ];
