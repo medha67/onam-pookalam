@@ -55,7 +55,7 @@ for (let i = 0; i < numPetals; i++) {
     ctx.rotate(angle);
     ctx.beginPath();
     ctx.ellipse(0, -petalLength, petalWidth, petalLength, 0, 0, 2 * Math.PI);
-    ctx.fillStyle = 'pink'; // Change color as needed
+    ctx.fillStyle = 'rgba(205, 32, 81, 0.6)'; // Change color as needed
     ctx.fill();
     ctx.restore();
     ctx.stroke();
