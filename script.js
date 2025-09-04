@@ -33,8 +33,8 @@ for (let i = 0; i < numDots; i++) {
   { radius: 190, color: '#FFD700' },
   { radius: 150, color: '#FF69B4' },
   { radius: 120, color: '#ffffffff' },
-  { radius: 80,  color: '#ff1e00ff' }, 
-  { radius: 40,  color: '#31f13eff' } 
+  { radius: 80,  color: '#ffffffff' }, 
+  { radius: 40,  color: '#ffffffff' } 
 ];
 
 for (let i = 0; i < layers.length; i++) {
@@ -69,7 +69,7 @@ const centerA = canvas.width / 2 + 170; // adjust 100 as needed
     ctx.arc(centerA, centerB, 80, 0, 2 * Math.PI);
     ctx.stroke();
     ctx.linewidth = 60;
-    ctx.fillStyle = 'rgba(255, 23, 19, 0.7) ';
+    ctx.fillStyle = 'rgba(255, 255, 255, 0.7) ';
     ctx.fill();
 
     ctx.beginPath();
@@ -77,7 +77,7 @@ ctx.moveTo(centerX, centerY + 42); // Top point
 ctx.lineTo(centerX - 43, centerY - 26); // Bottom left
 ctx.lineTo(centerX + 43, centerY - 26); // Bottom right
 ctx.closePath();
-ctx.fillStyle = 'rgba(219, 0, 146, 0.86)'; 
+ctx.fillStyle = 'rgba(7, 0, 219, 0.86)'; 
 ctx.fill();
 
 ctx.beginPath();
@@ -85,7 +85,7 @@ ctx.moveTo(centerX, centerY - 42); // Top point
 ctx.lineTo(centerX - 43, centerY + 22); // Bottom left
 ctx.lineTo(centerX + 43, centerY + 22); // Bottom right
 ctx.closePath();
-ctx.fillStyle = 'rgba(219, 0, 146, 0.86)'; 
+ctx.fillStyle = 'rgba(7), 0, 219, 0.86)'; 
 ctx.fill();
 }
     
