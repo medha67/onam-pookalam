@@ -77,7 +77,7 @@ ctx.moveTo(centerX, centerY + 42); // Top point
 ctx.lineTo(centerX - 43, centerY - 26); // Bottom left
 ctx.lineTo(centerX + 43, centerY - 26); // Bottom right
 ctx.closePath();
-ctx.fillStyle = 'rgba(224, 62, 21, 0.86)'; 
+ctx.fillStyle = 'rgba(21, 72, 224, 0.86)'; 
 ctx.fill();
 
 ctx.beginPath();
@@ -85,7 +85,7 @@ ctx.moveTo(centerX, centerY - 42); // Top point
 ctx.lineTo(centerX - 43, centerY + 22); // Bottom left
 ctx.lineTo(centerX + 43, centerY + 22); // Bottom right
 ctx.closePath();
-ctx.fillStyle =' rgba(224, 62, 21, 0.86)';
+ctx.fillStyle =' rgba(21, 72, 224, 0.86)';
 ctx.fill();
 }
     
