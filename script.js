@@ -33,7 +33,7 @@ for (let i = 0; i < numDots; i++) {
   { radius: 190, color: '#FFD700' },
   { radius: 150, color: '#FF69B4' },
   { radius: 120, color: '#3278cdff' },
-  { radius: 80,  color: '#2318fdff' }, 
+  { radius: 80,  color: '#6164f1ff,0.7' }, 
   { radius: 40,  color: '#31f13eff' } 
 ];
 
