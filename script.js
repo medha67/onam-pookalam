@@ -69,7 +69,7 @@ const centerA = canvas.width / 2 + 170; // adjust 100 as needed
     ctx.arc(centerA, centerB, 80, 0, 2 * Math.PI);
     ctx.stroke();
     ctx.linewidth = 60;
-    ctx.fillStyle = 'rgba(255, 255, 255, 0.7) ';
+    ctx.fillStyle = 'rgba(241, 76, 117, 0.7) ';
     ctx.fill();
 
     ctx.beginPath();
@@ -77,7 +77,7 @@ ctx.moveTo(centerX, centerY + 42); // Top point
 ctx.lineTo(centerX - 43, centerY - 26); // Bottom left
 ctx.lineTo(centerX + 43, centerY - 26); // Bottom right
 ctx.closePath();
-ctx.fillStyle = 'rgba(7, 0, 219, 0.86)'; 
+ctx.fillStyle = 'rgba(224, 62, 21, 0.86)'; 
 ctx.fill();
 
 ctx.beginPath();
@@ -85,7 +85,7 @@ ctx.moveTo(centerX, centerY - 42); // Top point
 ctx.lineTo(centerX - 43, centerY + 22); // Bottom left
 ctx.lineTo(centerX + 43, centerY + 22); // Bottom right
 ctx.closePath();
-ctx.fillStyle = 'rgba(7), 0, 219, 0.86)'; 
+ctx.fillStyle =' rgba(224, 62, 21, 0.86)';
 ctx.fill();
 }
     
