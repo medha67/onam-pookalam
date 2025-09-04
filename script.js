@@ -30,11 +30,11 @@ for (let i = 0; i < numDots; i++) {
 }
 
     const layers = [
-  { radius: 190, color: '#FFD700' }, // gold
-  { radius: 150, color: '#FF69B4' }, // pink
-  { radius: 120, color: '#3278cdff' }, // green
-  { radius: 80,  color: '#FFA500' }, // orange
-  { radius: 40,  color: '#FFFFFF' }  // white
+  { radius: 190, color: '#FFD700' },
+  { radius: 150, color: '#FF69B4' },
+  { radius: 120, color: '#3278cdff' },
+  { radius: 80,  color: '#ff1e00ff' }, 
+  { radius: 40,  color: '#31f13eff' } 
 ];
 
 for (let i = 0; i < layers.length; i++) {
@@ -69,7 +69,7 @@ const centerA = canvas.width / 2 + 170; // adjust 100 as needed
     ctx.arc(centerA, centerB, 80, 0, 2 * Math.PI);
     ctx.stroke();
     ctx.linewidth = 60;
-    ctx.fillStyle = 'rgba(0, 0, 255, 0.7) ';
+    ctx.fillStyle = 'rgba(244, 218, 24, 0.7) ';
     ctx.fill();
 
     ctx.beginPath();
@@ -77,7 +77,7 @@ ctx.moveTo(centerX, centerY + 42); // Top point
 ctx.lineTo(centerX - 43, centerY - 26); // Bottom left
 ctx.lineTo(centerX + 43, centerY - 26); // Bottom right
 ctx.closePath();
-ctx.fillStyle = 'rgba(219, 0, 146, 0.86)'; // Change color as needed
+ctx.fillStyle = 'rgba(219, 0, 146, 0.86)'; 
 ctx.fill();
 
 ctx.beginPath();
@@ -89,6 +89,5 @@ ctx.fillStyle = 'rgba(219, 0, 146, 0.86)';
 ctx.fill();
 }
     
-// Call the function to draw when the script loads
 window.onload = drawPookalam;
 
