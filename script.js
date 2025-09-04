@@ -32,9 +32,9 @@ for (let i = 0; i < numDots; i++) {
     const layers = [
   { radius: 190, color: '#FFD700' },
   { radius: 150, color: '#FF69B4' },
-  { radius: 120, color: '#ffffffff' },
-  { radius: 80,  color: '#ffffffff' }, 
-  { radius: 40,  color: '#ffffffff' } 
+  { radius: 120, color: '#3278cdff' },
+  { radius: 80,  color: '#ff1e00ff' }, 
+  { radius: 40,  color: '#31f13eff' } 
 ];
 
 for (let i = 0; i < layers.length; i++) {
