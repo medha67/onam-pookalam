@@ -25,14 +25,14 @@ for (let i = 0; i < numDots; i++) {
     ctx.arc(x, y, dotRadius, 0, 6 * Math.PI);
     ctx.fillStyle = '#fff700'; // Dot color
     ctx.fill();
-    ctx.strokeStyle = '#bb002cff'; // Optional: dot border
+    ctx.strokeStyle = '#bb002cff'; //dot border
     ctx.stroke();
 }
 
     const layers = [
   { radius: 190, color: '#FFD700' },
   { radius: 150, color: '#FF69B4' },
-  { radius: 120, color: '#3278cdff' },
+  { radius: 120, color: '#ecef3cff' },
   { radius: 80,  color: '#ff1e00ff' }, 
   { radius: 40,  color: '#31f13eff' } 
 ];
@@ -69,7 +69,7 @@ const centerA = canvas.width / 2 + 170; // adjust 100 as needed
     ctx.arc(centerA, centerB, 80, 0, 2 * Math.PI);
     ctx.stroke();
     ctx.linewidth = 60;
-    ctx.fillStyle = 'rgba(244, 218, 24, 0.7) ';
+    ctx.fillStyle = 'rgba(255, 23, 19, 0.7) ';
     ctx.fill();
 
     ctx.beginPath();
