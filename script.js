@@ -33,7 +33,7 @@ for (let i = 0; i < numDots; i++) {
   { radius: 190, color: '#FFD700' },
   { radius: 150, color: '#FF69B4' },
   { radius: 120, color: '#3278cdff' },
-  { radius: 80,  color: '#fd7418ff' }, 
+  { radius: 80,  color: '#2318fdff' }, 
   { radius: 40,  color: '#31f13eff' } 
 ];
 
@@ -79,6 +79,7 @@ ctx.lineTo(centerX + 43, centerY - 26); // Bottom right
 ctx.closePath();
 ctx.fillStyle = 'rgba(21, 72, 224, 0.86)'; 
 ctx.fill();
+
 
 ctx.beginPath();
 ctx.moveTo(centerX, centerY - 42); // Top point
